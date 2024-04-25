@@ -8,8 +8,8 @@
 <body>
 
 <?php
-(!empty($room_id_err)) ? 'has-error' : ''; ?>">
-                <label>Chambre</label>
+(!empty($room_id_err)) ? 'has-error' : ''; ?>
+                <label>Chambres</label>
                 <select name="room_id" class="form-control">
                     <option value="">Sélectionnez une chambre</option>
 
