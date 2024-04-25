@@ -12,37 +12,30 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-xl bg-body-tertiary">
-        <nav class="navbar bg-dark border-bottom border-body" data-bs-theme="light dark">
+    <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Menu</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="Room-list.php">Chambres</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="register.php">Connexion</a>
+        </li>
+        <li class="nav-item co">
+            Vous n'avez pas de compte ?<br>
+            <a href="register.html">S'inscrire maintenant</a>
+        </li>
+        <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+    </ul>
 
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Menu</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="register.html">Connexion</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="Room-list.php">Chambres</a>
-                        </li>
 
+    <img src="..//src/img/5451_ho_00_p_2048x1536.jpg">;
+    <!--refaire la page d'accueil-->
 
-                    </ul>
-                    <form class="d-flex" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                    </form>
-                </div>
-            </div>
-        </nav>
-    </nav>
-
-        <img src="..//src/img/5451_ho_00_p_2048x1536.jpg">;
-        <!--refaire la page d'accueil-->
-        <p class="profil">Vous n'avez pas de compte ? <a href="register.html">S'inscrire maintenant</a>.</p>
 </body>
 
 </html>
