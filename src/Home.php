@@ -10,6 +10,6 @@
 <body>
 
 <!--refaire la page d'accueil-->
-
+    <p>Vous n'avez pas de compte ? <a href="register.html">S'inscrire maintenant</a>.</p>
 </body>
 </html>
