@@ -13,11 +13,11 @@
 
     ?>
     <div class="wrapper">
-        <h2>Login</h2>
-        <p>Please fill in your credentials to login.</p>
+        <h2>Connectez-vous</h2>
+        <p>Veuillez saisir vos informations d'identification pour vous connecter.</p>
         <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
             <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
-                <label>Username</label>
+                <label>Profil</label>
                 <input type="text" name="username" class="form-control" value="<?php echo $username; ?>">
                 <span class="help-block"><?php echo $username_err; ?></span>
             </div>    
