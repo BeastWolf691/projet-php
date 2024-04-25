@@ -8,10 +8,6 @@
     <title>GT Hôtel</title>
 </head>
 <body>
-    <?php
-
-
-    ?>
     <div class="wrapper">
         <h2>Connectez-vous</h2>
         <p>Veuillez saisir vos informations d'identification pour vous connecter.</p>
