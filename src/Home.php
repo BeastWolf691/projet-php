@@ -11,11 +11,9 @@
 </head>
 
 <body>
-    <div class="banniere">
-    <img src="">
-    </div>
-<nav class="navbar-xl back">
-    <ul class="nav justify-content-center">
+<div class="container clearfix et_menu_container">
+    <h1 class="titre">GT Hôtel</h1>
+    <ul class="nav justify-content-end">
         <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Menu</a>
         </li>
@@ -34,10 +32,14 @@
             <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
     </ul>
-</nav>
+    
+    <div class="logo">
 
+        
+    </div>
+</div>
 
-    <img src="..//src/img/5451_ho_00_p_2048x1536.jpg" width="100%">
+    <!-- <img src="..//src/img/5451_ho_00_p_2048x1536.jpg" width="100%"> -->
     <!--refaire la page d'accueil-->
 
 </body>

@@ -1,13 +1,17 @@
 body{
     margin: 2px;
+    background-color: #ffffea;
 }
-.banniere {
-    height: 15%;
+.container.et_menu_container {
+    margin-top: 20px;
 }
-.banniere img{
-    width: 100%;
+.titre{
+    margin-left: 5%;
+    margin-top: 1%;
 }
-.co {
-    text-align: center;
-    margin: 0 7px;
+.justify-content-end {
+    justify-content: flex-end!important;
+    position: absolute;
+    top: 3%;
+    right: 3%;
 }
