@@ -11,36 +11,36 @@
 </head>
 
 <body>
-<div class="container clearfix et_menu_container">
-    <h1 class="titre">GT Hôtel</h1>
-    <ul class="nav justify-content-end">
-        <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Menu</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="Room-list.php">Chambres</a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" href="register.php">Connexion</a>
-        </li>
-        <li class="nav-item co">
-            Vous n'avez pas de compte ?<br>
-            <a href="register.html">S'inscrire maintenant</a>
-        </li>
-        <form class="d-flex" role="search">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-    </ul>
-    
-    <div class="logo">
-
-        
+    <div class="banniere">
+        <h1 class="titre">GT Hôtel</h1>
+        <ul class="navbar navbar-expand-xl justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link" href="Room-list.php">Réserver</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Room-list.php">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Room-list.php">Chambres</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="register.php">Connexion</a>
+            </li>
+            <li class="nav-item co">
+                <a class="nav-link" href="register.html">S'inscrire</a>
+            </li>
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </ul>
     </div>
-</div>
-
-    <!-- <img src="..//src/img/5451_ho_00_p_2048x1536.jpg" width="100%"> -->
-    <!--refaire la page d'accueil-->
+    <div class="affiche">
+        <img src="..//src/img/5451_ho_00_p_2048x1536.jpg" width="100%">
+        <p id="présentation">Profitez d'un séjour inoubliable au sein de GT Hôtel. Un moment unique, exceptionnel, un lieu où le temps s'arrête...<br>
+        </p>
+    </div>
+        <!--refaire la page d'accueil-->
 
 </body>
 
