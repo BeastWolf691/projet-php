@@ -6,7 +6,7 @@
 </head>
 <body>
     <div class="container">
-        <h2>Enregistrement</h2>
+        <h2>Profil</h2>
         <form action="register.php" method="post">
             <div class="form-group">
                 <label for="email">Adresse email:</label>
@@ -16,7 +16,15 @@
                 <label for="pwd">Mot de passe:</label>
                 <input type="password" class="form-control" id="pwd" name="password" required>
             </div>
-            <button type="submit" class="btn btn-primary">Enregistrer</button>
+            <button type="submit" class="btn btn-primary">Enregistrement</button>
+            <div class="form-group">
+            </div>
+            <p>Vous n'avez pas de compte ? <a href="register.php">S'inscrire maintenant</a>.</p>
+            <div class="form-group">
+                <p>S'inscrire avec Google<a href="register.php"></a></p>
+                <input type="submit" class="btn btn-primary" value="Connexion Google">
+            </div>
+            
         </form>
     </div>
 
