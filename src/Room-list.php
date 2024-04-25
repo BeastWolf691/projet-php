@@ -19,7 +19,7 @@
                     if($result = mysqli_query($link, $sql)){
                         if(mysqli_num_rows($result) > 0){
                             while($row = mysqli_fetch_array($result)){
-                                echo "<option value='" . $row['room_id'] . "'>" . $row['room_number'] . "</option>";
+                                echo "<option value='" . $row['room_id'] . "'>" . $row['room_number'] . "'>" .$row['room_type'] . "'>" . $row['room_price'] . "'>" .$row['room_bed_single_nb'] . "'>" .$row['room_bed_double_nb']."'>" ."</option>";
                             }
                         }
                     }
