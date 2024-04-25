@@ -11,7 +11,7 @@
 </head>
 
 <body>
-
+<nav class="navbar-xl back">
     <ul class="nav justify-content-center">
         <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Menu</a>
@@ -31,9 +31,10 @@
             <button class="btn btn-outline-success" type="submit">Search</button>
         </form>
     </ul>
+</nav>
 
 
-    <img src="..//src/img/5451_ho_00_p_2048x1536.jpg">;
+    <img src="..//src/img/5451_ho_00_p_2048x1536.jpg" width="100%">
     <!--refaire la page d'accueil-->
 
 </body>

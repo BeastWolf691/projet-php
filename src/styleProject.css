@@ -1,3 +1,9 @@
+body{
+    margin: 2px;
+}
+.back{
+    background-image: url(..//src/img/depositphotos_73721297-stock-photo-zen-banner-background.jpg) center no-repeat no-repeat;
+}
 .co {
     text-align: center;
     margin: 0 7px;
