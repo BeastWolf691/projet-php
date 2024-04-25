@@ -11,6 +11,9 @@
 </head>
 
 <body>
+    <div class="banniere">
+    <img src="">
+    </div>
 <nav class="navbar-xl back">
     <ul class="nav justify-content-center">
         <li class="nav-item">

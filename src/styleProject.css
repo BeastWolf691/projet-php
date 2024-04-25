@@ -1,8 +1,11 @@
 body{
     margin: 2px;
 }
-.back{
-    background-image: url(..//src/img/depositphotos_73721297-stock-photo-zen-banner-background.jpg) center no-repeat no-repeat;
+.banniere {
+    height: 15%;
+}
+.banniere img{
+    width: 100%;
 }
 .co {
     text-align: center;
