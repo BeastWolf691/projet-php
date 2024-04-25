@@ -8,25 +8,8 @@
     <title>GT Hôtel</title>
 </head>
 <body>
-    <div class="wrapper">
-        <h2>Connectez-vous</h2>
-        <p>Veuillez saisir vos informations d'identification pour vous connecter.</p>
-        <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-            <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
-                <label>Profil</label>
-                <input type="text" name="username" class="form-control" value="">
-                <span class="help-block"><?php echo $username_err; ?></span>
-            </div>    
-            <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
-                <label>Mot De passe</label>
-                <input type="password" name="password" class="form-control">
-                <span class="help-block"><?php echo $password_err; ?></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" class="btn btn-primary" value="Identifiant">
-            </div>
-            <p>Vous n'avez pas de compte ? <a href="register.php">S'inscrire maintenant</a>.</p>
-        </form>
-    </div>
+
+<!--refaire la page d'accueil-->
+
 </body>
 </html>
