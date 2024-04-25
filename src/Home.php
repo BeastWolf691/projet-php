@@ -10,13 +10,13 @@
 <body>
 
 <header>
-    <img src=''>
+    <div class="banniere"></div>
 </header>
 
 <ul>
           <li><a href="#">Accueil</a></li>
-          <li><a href="#" onclick="window.open(this.href, '_blank'); return false;">Connexion</a></li>
-          <li><a href="#" onclick="window.open(this.href, '_blank'); return false;">Chambres</a></li>
+          <li><a href="register.html">Connexion</a></li>
+          <li><a href="Room-list.php">Chambres</a></li>
         </ul>
 <!--refaire la page d'accueil-->
     <p class="profil">Vous n'avez pas de compte ? <a href="register.html">S'inscrire maintenant</a>.</p>
