@@ -34,16 +34,6 @@ ul.navbar {
 
 .affiche {
     height: 1200px; /* 100% de la hauteur de la fenêtre de navigation */
-    width: 800px; /* 100% de la largeur de la fenêtre de navigation */
+    width: 1600px; /* 100% de la largeur de la fenêtre de navigation */
     position: relative;
-}
-
-p #présentation {
-    margin: 0 50px;
-    position: absolute;
-    top: 45%;
-    z-index: 1;
-    color: white;
-    font-size: xx-large;
-    font-family: cursive;
 }
