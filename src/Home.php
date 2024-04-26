@@ -37,11 +37,10 @@
         </ul>
     </div>
     <div class="affiche">
-        <img src="..//src/img/5451_ho_00_p_2048x1536.jpg" width="100%">
+        <img src="..//src/img/5451_ho_00_p_2048x1536.jpg" width="100%" height="100%">
         <p id="présentation">Profitez d'un séjour inoubliable au sein de GT Hôtel. Un moment unique, exceptionnel, un lieu où le temps s'arrête...<br>
         </p>
     </div>
-        <!--refaire la page d'accueil-->
 
 </body>
 

@@ -2,32 +2,44 @@ body{
     margin: 2px;
     background-color: #ffffea;
 }
+
 .banniere {
-    margin: 0 0 1% 5%;
+    margin: 0 0 15px 100px;
 }
+
 .titre{
     margin-top: 1%;
 }
+
 .justify-content-end {
     position: absolute;
-    top: 2%;
-    right: 10%;
+    top: 17px;
+    right: 45px;
     list-style-type: none;
 }
+
 .nav-link:hover {
     text-decoration: underline;
     cursor: pointer;
 }
+
 li.nav-item {
     padding: 1%;
     text-decoration:none;
 }
+
 ul.navbar {
-    padding: 0 0 1% 0;
+    padding: 0 0 10px 0;
 }
+
+.affiche {
+    height: 1200px; /* 100% de la hauteur de la fenêtre de navigation */
+    width: 800px; /* 100% de la largeur de la fenêtre de navigation */
+    position: relative;
+}
+
 #présentation {
-    margin-top: 0;
-    margin-bottom: 1rem;
+    margin: 0 50px;
     position: absolute;
     top: 45%;
     z-index: 1;
