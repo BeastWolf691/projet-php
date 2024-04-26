@@ -33,7 +33,6 @@ ul.navbar {
 }
 
 .affiche {
-    height: 1200px; /* 100% de la hauteur de la fenêtre de navigation */
-    width: 1600px; /* 100% de la largeur de la fenêtre de navigation */
+    height: 850px;
     position: relative;
 }
