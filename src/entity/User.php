@@ -18,23 +18,29 @@ protected string $firstname_user;
 protected string $lastname_user;
 
 #[ORM\Column(type:'string')]
+protected string $password_user;
+
+#[ORM\Column(type:'string')]
 protected string $address_user;
 
 #[ORM\Column(type:'string')]
 protected string $email_user;
 
 
-    public function __construct(string $firstname_user, string $lastname_user, string $address_user, string $email_user){
+    public function __construct(string $firstname_user, string $lastname_user, string $password_user, string $address_user, string $email_user){
         $this->firstname_user = $firstname_user;
         $this->lastname_user = $lastname_user;
+        $this->password_user = $password_user;
         $this->address_user = $address_user;
         $this->email_user = $email_user;
     }
 
+
+
 /**
  * Get the value of id
  */
-public function getId()
+public function getId(): int
 {
 return $this->id;
 }
@@ -42,7 +48,7 @@ return $this->id;
 /**
  * Set the value of id
  */
-public function setId($id): self
+public function setId(int $id): self
 {
 $this->id = $id;
 
@@ -81,6 +87,24 @@ return $this->lastname_user;
 public function setLastnameUser(string $lastname_user): self
 {
 $this->lastname_user = $lastname_user;
+
+return $this;
+}
+
+/**
+ * Get the value of password_user
+ */
+public function getPasswordUser(): string
+{
+return $this->password_user;
+}
+
+/**
+ * Set the value of password_user
+ */
+public function setPasswordUser(string $password_user): self
+{
+$this->password_user = $password_user;
 
 return $this;
 }
