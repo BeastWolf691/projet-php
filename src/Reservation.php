@@ -26,5 +26,5 @@ $reservation = new Reservation();
 $entityManager->persist($reservation);
 $entityManager->flush();
 
-// Redirect or inform the user
+echo json_encode(['message' => 'Reservation réussie']);
 ?>
