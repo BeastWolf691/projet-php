@@ -1,15 +1,25 @@
 <?php
 
+use Doctrine\ORM\Mapping as ORM;
+
+#[ORM\Entity]
+#[ORM\Table(name:'user')]
 class User {
+#[ORM\Id]
+#[ORM\Column(type:'integer')]
+#[ORM\GeneratedValue]
+protected int $id;
 
-protected $id;
-
+#[ORM\Column(type:'string')]
 protected string $firstname_user;
 
+#[ORM\Column(type:'string')]
 protected string $lastname_user;
 
+#[ORM\Column(type:'string')]
 protected string $address_user;
 
+#[ORM\Column(type:'string')]
 protected string $email_user;
 
 

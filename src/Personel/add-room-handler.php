@@ -9,7 +9,7 @@ $roomNumber = $_POST['roomNumber'];
 $type = $_POST['type'];
 $price = $_POST['price'];
 
-$room = new Room();
+$room = new addRoom();
 $room->setRoomNumber($roomNumber);
 $room->setType($type);
 $room->setPrice($price);

@@ -2,7 +2,7 @@
 
 require_once "register.html";
 require_once "bootstrap.php";
-use Entity\User;
+use Entity;
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $user = new User();
