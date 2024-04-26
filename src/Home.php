@@ -16,16 +16,16 @@
         <ul class="navbar navbar-expand-xl justify-content-end">
             <li class="nav-item">
             <button type="button" class="btn btn-success">
-                <a class="nav-link" href="Room-list.php">Réserver</a></button>
+                <a class="nav-link" href="booking.html">Réserver</a></button>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="Room-list.php">Services</a>
+                <a class="nav-link" href="#">Services</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="Room-list.php">Chambres</a>
+                <a class="nav-link" href="#">Chambres</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="register.php">Connexion</a>
+                <a class="nav-link" href="register.html">Connexion</a>
             </li>
             <li class="nav-item co">
                 <a class="nav-link" href="register.html">S'inscrire</a>
