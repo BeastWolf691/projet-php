@@ -15,7 +15,8 @@
         <h1 class="titre">GT Hôtel</h1>
         <ul class="navbar navbar-expand-xl justify-content-end">
             <li class="nav-item">
-                <a class="nav-link" href="Room-list.php">Réserver</a>
+            <button type="button" class="btn btn-success">
+                <a class="nav-link" href="Room-list.php">Réserver</a></button>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="Room-list.php">Services</a>

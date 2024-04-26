@@ -20,6 +20,7 @@ body{
 }
 li.nav-item {
     padding: 1%;
+    text-decoration:none;
 }
 ul.navbar {
     padding: 0 0 1% 0;
