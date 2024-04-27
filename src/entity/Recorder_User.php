@@ -6,7 +6,7 @@ require_once "vendor/autoload.php";
 
 
 // Configuration de la connexion à la base de données
-$db = [
+$dbParams = [
     'driver'   => 'pdo_mysql',
     'user'     => 'root',
     'password' => '',

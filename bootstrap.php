@@ -1,28 +1,26 @@
 <?php
-require_once "..//projet-php/vendor/autoload.php";
+require_once "vendor/autoload.php";
 
 use Doctrine\DBAL\DriverManager;
 use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\ORMSetup;
 
-
-// Create a simple "default" Doctrine ORM configuration for Attributes
+// Create a simple "default" Doctrine ORM configuration for Annotations
 $config = ORMSetup::createAttributeMetadataConfiguration(
-    paths: array(__DIR__."/src/entity"),
-    isDevMode: true,
+    array(__DIR__."/src/entity"),  // Specify the path to your entities
+    true                           // Enable development mode
 );
 
-// configuring the database connection
-$connection = DriverManager::getConnection(
-[
-    'driver'    => 'pdo_mysql',
-    'user'      => 'root',
-    'password'  => '',
-    'dbname'    => 'demo_entity_manager',
-    'port'      => 3308
-  ],
-  $config
-);
+// Configuring the database connection
+$connectionOptions = [
+    'driver'   => 'pdo_mysql',
+    'user'     => 'root',
+    'password' => '',
+    'dbname'   => 'gthotel',
+    'port'     => 3306
+];
 
-// obtaining the entity manager
-$entityManager = new EntityManager($connection, $config);
+$connection = DriverManager::getConnection($connectionOptions, $config);
+
+// Obtaining the entity manager
+$entityManager = EntityManager::create($connection, $config);
