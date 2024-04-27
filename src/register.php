@@ -1,7 +1,9 @@
 <?php
 
+
 require_once "register.html";
 require_once "..//bootstrap.php";
+require_once "..//src/entity/Recorder_User.php";
 
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
