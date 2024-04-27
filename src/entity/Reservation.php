@@ -14,7 +14,7 @@ class Reservation
 }
 
 // add-reservation-handler.php
-use Entity\Reservation;
+
 
 // Gather POST data from the form
 // ...

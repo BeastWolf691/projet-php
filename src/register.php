@@ -1,8 +1,8 @@
 <?php
 
 require_once "register.html";
-require_once "bootstrap.php";
-use Entity;
+require_once "..//bootstrap.php";
+
 
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $user = new User();
@@ -14,3 +14,4 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     echo "User registered with ID " . $user->getId();
 }
+

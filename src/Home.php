@@ -22,7 +22,7 @@
                 <a class="nav-link" href="#">Services</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Chambres</a>
+                <a class="nav-link" href="resaChambrePhoto.html">Chambres</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="register.html">Connexion</a>

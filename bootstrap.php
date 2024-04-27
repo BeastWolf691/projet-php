@@ -4,6 +4,7 @@ require_once "vendor/autoload.php";
 use Doctrine\DBAL\DriverManager;
 use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\ORMSetup;
+use Doctrine\ORM\Column;
 
 
 // Create a simple "default" Doctrine ORM configuration for Attributes

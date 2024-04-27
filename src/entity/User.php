@@ -1,6 +1,7 @@
 <?php
 
 use Doctrine\ORM\Mapping as ORM;
+use Doctrine\ORM\Mapping\Column;
 
 #[ORM\Entity]
 #[ORM\Table(name:'user')]
@@ -138,11 +139,22 @@ return $this->email_user;
 /**
  * Set the value of email_user
  */
-public function setEmailUser(string $email_user): self
+public function setEmail(string $email): void
 {
-$this->email_user = $email_user;
+    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        throw new \InvalidArgumentException('L\'adresse email n\'est pas valide.');
+    }
+    $this->email_user = $email;
+}
 
-return $this;
+#[ORM\PrePersist]
+#[ORM\PreUpdate]
+
+public function validateEmail(): void
+{
+   if (!filter_var($this->email_user, FILTER_VALIDATE_EMAIL)) {
+       throw new \InvalidArgumentException('L\'adresse email n\'est pas valide.');
+   }
 }
 }
 
