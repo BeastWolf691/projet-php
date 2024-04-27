@@ -7,7 +7,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>Profil</h1>
+        <h1>Création de compte</h1>
         <form action="register.php" method="post">
             <div class="form-group">
                 <label for="email">Adresse email:</label>

@@ -1,5 +1,5 @@
 <?php
-
+namespace Entity;
 
 // Inclure l'autoload de Composer
 require_once "vendor/autoload.php";

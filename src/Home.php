@@ -28,7 +28,7 @@
                 <a class="nav-link" href="register.html">Connexion</a>
             </li>
             <li class="nav-item co">
-                <a class="nav-link" href="register.html">S'inscrire</a>
+                <a class="nav-link" href="CreateProfil.php">S'inscrire</a>
             </li>
             <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">

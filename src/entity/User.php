@@ -1,29 +1,30 @@
 <?php
 
+namespace Entity;
+
 use Doctrine\ORM\Mapping as ORM;
 
 #[ORM\Entity]
-#[ORM\Table(name:'user')]
 
 class User {
-#[ORM\Id]
-#[ORM\Column(type:'integer')]
-#[ORM\GeneratedValue]
-protected int $id;
+    #[ORM\Id]
+    #[ORM\GeneratedValue()]
+    #[ORM\Column(type: 'integer')]
+    protected int $id;
 
-#[ORM\Column(type:'string')]
+#[ORM\Column()]
 protected string $firstname_user;
 
-#[ORM\Column(type:'string')]
+#[ORM\Column()]
 protected string $lastname_user;
 
-#[ORM\Column(type:'string')]
+#[ORM\Column()]
 protected string $password_user;
 
-#[ORM\Column(type:'string')]
+#[ORM\Column()]
 protected string $address_user;
 
-#[ORM\Column(type:'string')]
+#[ORM\Column()]
 protected string $email_user;
 
 

@@ -1,10 +1,9 @@
 <?php
-require_once "vendor/autoload.php";
+require_once "..//projet-php/vendor/autoload.php";
 
 use Doctrine\DBAL\DriverManager;
 use Doctrine\ORM\EntityManager;
 use Doctrine\ORM\ORMSetup;
-use Doctrine\ORM\Column;
 
 
 // Create a simple "default" Doctrine ORM configuration for Attributes
@@ -19,8 +18,8 @@ $connection = DriverManager::getConnection(
     'driver'    => 'pdo_mysql',
     'user'      => 'root',
     'password'  => '',
-    'dbname'    => 'gthotel',
-    'port'      => 3306
+    'dbname'    => 'demo_entity_manager',
+    'port'      => 3308
   ],
   $config
 );
