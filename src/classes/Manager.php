@@ -1,6 +1,7 @@
 <?php
+namespace App\Classes;
 
-class Manager implements Employee {
+class Manager extends Employee {
 
     private int $user_id;
     private string $username;
