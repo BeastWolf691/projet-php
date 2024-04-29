@@ -1,4 +1,6 @@
 <?php
+namespace App\Classes;
+
 /**
 * @ORM\Entity
 * @ORM\Table(name="hotels")
