@@ -1,6 +1,7 @@
 <?php
+namespace App\Classes;
 
-class SecurityHead implements Employee {
+class SecurityHead extends Employee {
 
     private int $user_id;
     private string $username;
