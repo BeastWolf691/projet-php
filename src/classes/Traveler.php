@@ -1,11 +1,13 @@
 <?php
+namespace App\Classes;
+
 use Doctrine\ORM\Mapping as ORM;
 
 /**
  * @ORM\Entity
  * @ORM\Table(name="travelers")
  */
-class Traveler implements User
+class Traveler extends User
 {
     /**
      * @ORM\Id
