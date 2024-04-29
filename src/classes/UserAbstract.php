@@ -1,4 +1,6 @@
 <?php
+namespace App\Classes;
+
 // src/Entity/User.php
  
 use Doctrine\ORM\Mapping as ORM;
@@ -7,7 +9,7 @@ use Doctrine\ORM\Mapping as ORM;
 * @ORM\Entity
 * @ORM\Table(name="users")
 */
-abstract class User
+abstract class UserAbstract
 {
     /**
      * @ORM\Id
