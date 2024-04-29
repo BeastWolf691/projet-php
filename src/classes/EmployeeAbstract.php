@@ -1,8 +1,9 @@
 <?php
+namespace app\gthotel;
 
 use Doctrine\ORM\Mapping as ORM;
 
-abstract class Employee implements User {
+abstract class EmployeeAbstract extends UserAbstract {
 
     private int $user_id;
     private string $username;
@@ -43,7 +44,7 @@ abstract class Employee implements User {
     /**
      * @ORM\Column(type="datetime", nullable=true)
      */
-    private ?DateTime $employee_fire_date;
+    private DateTime $employee_fire_date;
  
     /**
      * @ORM\Column(type="float")
