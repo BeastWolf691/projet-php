@@ -1,5 +1,5 @@
 <?php
-namespace app\gthotel;
+namespace App\Classes;
 
 use Doctrine\ORM\Mapping as ORM;
 
