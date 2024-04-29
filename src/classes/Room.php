@@ -1,4 +1,6 @@
 <?php
+namespace App\Classes;
+
 // src/Entity/Room.php
 namespace Entity;
 
